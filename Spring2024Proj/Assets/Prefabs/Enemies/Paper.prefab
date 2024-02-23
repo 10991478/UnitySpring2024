@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2621913634472714756}
   - component: {fileID: 8905334129356468545}
   - component: {fileID: -4267289212951215962}
+  - component: {fileID: -6409473918220427179}
   m_Layer: 7
   m_Name: Paper
   m_TagString: Untagged
@@ -233,3 +234,35 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!114 &-6409473918220427179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2621913634472714765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c81c1641b8cb5e4794c3614eda51d89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerLayer: 6
+  secondsBetweenRecurringEvent: 0.1
+  instantEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  recurringEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2621913634472714756}
+        m_TargetAssemblyTypeName: GeneralEnemyMethods, Assembly-CSharp
+        m_MethodName: AddToIntHealth
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: -2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
