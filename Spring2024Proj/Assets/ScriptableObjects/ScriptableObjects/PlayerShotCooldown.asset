@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf318d9b19e660f4fb48684f333a2d28, type: 3}
   m_Name: PlayerShotCooldown
   m_EditorClassIdentifier: 
-  value: 0.5
+  value: 0.3
   hasUpperBound: 0
   hasLowerBound: 0
   lowerBound: 0

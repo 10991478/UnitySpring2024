@@ -9,14 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf318d9b19e660f4fb48684f333a2d28, type: 3}
-  m_Name: EnemySpawnRate
+  m_Script: {fileID: 11500000, guid: 314b0493725f9184c8efc96c1e4fbdc4, type: 3}
+  m_Name: EnemySpawnZoneBottom
   m_EditorClassIdentifier: 
-  value: 0.75
-  hasUpperBound: 0
-  hasLowerBound: 0
-  lowerBound: 0
-  upperBound: 0
-  updateValueEvent:
-    m_PersistentCalls:
-      m_Calls: []
+  spawnZone: {x: 14, y: 0, z: 1}
+  positionOffset: {x: 0, y: 0, z: -16}
