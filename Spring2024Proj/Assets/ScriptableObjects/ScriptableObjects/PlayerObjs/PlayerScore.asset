@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e7b49d183e135f4aa5645dbc4001f1b, type: 3}
-  m_Name: PlayerHealth
+  m_Name: PlayerScore
   m_EditorClassIdentifier: 
   value: 0
-  hasUpperBound: 1
+  hasUpperBound: 0
   hasLowerBound: 1
   lowerBound: 0
-  upperBound: 100
+  upperBound: 0
   updateValueEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 4def15907b5d15444bacd53df8e7070c, type: 2}
+      - m_Target: {fileID: 11400000, guid: 80ca9e9c07639634a88bc8d0ed3c9710, type: 2}
         m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
         m_MethodName: RaiseAction
         m_Mode: 1
@@ -46,19 +46,7 @@ MonoBehaviour:
         m_CallState: 2
   updateMaxEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: e09a67cb078de0d42901e9640ddebb9c, type: 2}
-        m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
-        m_MethodName: RaiseAction
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   updateMinEvent:
     m_PersistentCalls:
       m_Calls: []

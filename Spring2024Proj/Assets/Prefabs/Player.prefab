@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3842045028975178503}
   - component: {fileID: 3842045028975178504}
   - component: {fileID: 3842045028975178500}
+  - component: {fileID: -5988064909092597028}
   - component: {fileID: 8674908132728023611}
   - component: {fileID: -1906825434342161211}
   m_Layer: 6
@@ -114,6 +115,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   speedMultiplier: {fileID: 11400000, guid: 2d7fcf560a20e5348870d0b4e7ec7043, type: 2}
+--- !u!114 &-5988064909092597028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3842045028975178506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a768560dc8cdb42a5a8b709219022d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentAmmoType: {fileID: 11400000, guid: 646804f177b763548af2ce8e6b89ef50, type: 2}
   shotCooldown: {fileID: 11400000, guid: d442f4aeacfde7b4d966dd1c8f1dd5e6, type: 2}
   ammoObjects:
   - {fileID: 744909601045720094, guid: 7dd5f2aae582e9f4faddef6fa1046896, type: 3}
