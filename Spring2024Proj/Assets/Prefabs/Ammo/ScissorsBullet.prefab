@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 652029647518609972}
+  - component: {fileID: 6055260828962954871}
+  - component: {fileID: 1350027888050344875}
   m_Layer: 0
   m_Name: ScissorsBullet
   m_TagString: Untagged
@@ -32,6 +34,47 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6055260828962954871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652029647518609973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 695dc2231dfc37c47846938d421520eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: {fileID: 11400000, guid: f0bb7aab4246246428d7fc19dff3d74a, type: 2}
+--- !u!114 &1350027888050344875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652029647518609973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba0269da41d06454c923dd95ac940686, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seconds: 2
+  executeEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1350027888050344875}
+        m_TargetAssemblyTypeName: ExecuteAfterStart, Assembly-CSharp
+        m_MethodName: KillYourself
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &652029647576737140
 GameObject:
   m_ObjectHideFlags: 0
@@ -45,8 +88,8 @@ GameObject:
   - component: {fileID: 652029647576737137}
   - component: {fileID: 652029647576737138}
   - component: {fileID: 652029647576737139}
-  - component: {fileID: 652029647576737150}
-  m_Layer: 0
+  - component: {fileID: 5387973664266378392}
+  m_Layer: 6
   m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: {fileID: 11400000, guid: cc36a91539daab741a3fbdd7fb994779, type: 2}
---- !u!114 &652029647576737150
+--- !u!114 &5387973664266378392
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -154,8 +197,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 652029647576737140}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45ac730626feb0d43bfa616844dd476d, type: 3}
+  m_Script: {fileID: 11500000, guid: ce8365600004298439e0d7c2597611e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveVector: {x: 0, y: 0, z: 1}
-  speedMultiplier: 10
+  onCollisionEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5387973664266378392}
+        m_TargetAssemblyTypeName: OnTriggerEnterScript, Assembly-CSharp
+        m_MethodName: KillYourParent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  timedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  seconds: 0
