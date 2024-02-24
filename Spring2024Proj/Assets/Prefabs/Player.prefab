@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: -5988064909092597028}
   - component: {fileID: 8674908132728023611}
   - component: {fileID: -1906825434342161211}
+  - component: {fileID: 8607362654128221003}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -115,6 +116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   speedMultiplier: {fileID: 11400000, guid: 2d7fcf560a20e5348870d0b4e7ec7043, type: 2}
+  spawnPoint: {fileID: 11400000, guid: 8df5415dfc62c87468ac187319d98ce0, type: 2}
 --- !u!114 &-5988064909092597028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,3 +164,31 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &8607362654128221003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3842045028975178506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f325a3e46ffceb418506b5666f46eb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action: {fileID: 11400000, guid: 66b4eed4a6bd8534fa556f1011e56611, type: 2}
+  respondEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3842045028975178500}
+        m_TargetAssemblyTypeName: PlayerControllerTopDown, Assembly-CSharp
+        m_MethodName: GoToSpawnPoint
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

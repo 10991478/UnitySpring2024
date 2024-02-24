@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 314b0493725f9184c8efc96c1e4fbdc4, type: 3}
   m_Name: EnemySpawnZoneBottom
   m_EditorClassIdentifier: 
-  spawnZone: {x: 14, y: 0, z: 1}
+  spawnZone: {x: 15, y: 0, z: 1}
   positionOffset: {x: 0, y: 0, z: -16}

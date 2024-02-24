@@ -9,8 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 314b0493725f9184c8efc96c1e4fbdc4, type: 3}
-  m_Name: EnemySpawnZoneRight
+  m_Script: {fileID: 11500000, guid: 19b2e9ec5ad77cd4f8ea75d07ad77837, type: 3}
+  m_Name: FinishedWomp
   m_EditorClassIdentifier: 
-  spawnZone: {x: 1, y: 0, z: 9}
-  positionOffset: {x: 27, y: 0, z: 0}
