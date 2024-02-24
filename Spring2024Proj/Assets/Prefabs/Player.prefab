@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 8674908132728023611}
   - component: {fileID: -1906825434342161211}
   - component: {fileID: 8607362654128221003}
+  - component: {fileID: -2750684051140667714}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -135,6 +136,21 @@ MonoBehaviour:
   - {fileID: 744909601045720094, guid: 7dd5f2aae582e9f4faddef6fa1046896, type: 3}
   - {fileID: 6360684511478029061, guid: b4557be1dd0c05f4a9cd3b3ae009a89d, type: 3}
   - {fileID: 652029647518609973, guid: 009527d56ba04174786b1851a8ee1435, type: 3}
+  shootEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -2750684051140667714}
+        m_TargetAssemblyTypeName: BasicSoundScript, Assembly-CSharp
+        m_MethodName: PlayClipFromArray
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &8674908132728023611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,3 +208,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &-2750684051140667714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3842045028975178506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94efdd402e451249b55c4f6e49c82ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: 5ab6cb9124ea3e447bc7a938f2eb81ed, type: 3}
+  volumes: []

@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: -2217562489053130083}
   - component: {fileID: 2633210655399824024}
   - component: {fileID: -4913835443710566160}
+  - component: {fileID: 4068673219212664204}
   m_Layer: 7
   m_Name: Rock
   m_TagString: Untagged
@@ -121,33 +122,21 @@ MonoBehaviour:
   IDMatchEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5401629306104698950}
-        m_TargetAssemblyTypeName: RockPaperScissorsIDMatch, Assembly-CSharp
-        m_MethodName: TempMethod
+      - m_Target: {fileID: 4068673219212664204}
+        m_TargetAssemblyTypeName: BasicSoundScript, Assembly-CSharp
+        m_MethodName: PlayClipFromArray
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
+          m_IntArgument: 1
+          m_FloatArgument: 0.5
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
   IDLoseEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5401629306104698950}
-        m_TargetAssemblyTypeName: RockPaperScissorsIDMatch, Assembly-CSharp
-        m_MethodName: TempMethod
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: -1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 5401629306104698952}
         m_TargetAssemblyTypeName: GeneralEnemyMethods, Assembly-CSharp
         m_MethodName: KillYourself
@@ -172,18 +161,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 4068673219212664204}
+        m_TargetAssemblyTypeName: BasicSoundScript, Assembly-CSharp
+        m_MethodName: PlayClipFromArray
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.3
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   IDWinEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5401629306104698950}
-        m_TargetAssemblyTypeName: RockPaperScissorsIDMatch, Assembly-CSharp
-        m_MethodName: TempMethod
+      - m_Target: {fileID: 4068673219212664204}
+        m_TargetAssemblyTypeName: BasicSoundScript, Assembly-CSharp
+        m_MethodName: PlayClipFromArray
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
-          m_FloatArgument: 0
+          m_FloatArgument: 0.5
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -279,7 +280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f325a3e46ffceb418506b5666f46eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  action: {fileID: 11400000, guid: 66b4eed4a6bd8534fa556f1011e56611, type: 2}
+  action: {fileID: 11400000, guid: 1e3c0945be8803342bd93e11dc65bc0e, type: 2}
   respondEvent:
     m_PersistentCalls:
       m_Calls:
@@ -295,3 +296,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &4068673219212664204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5401629306104698945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94efdd402e451249b55c4f6e49c82ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: 9883509a6b489d64483aa8fcca9376fa, type: 3}
+  - {fileID: 8300000, guid: 2f48495dd848fa445b7f474f337d4113, type: 3}
+  volumes:
+  - 0.3
+  - 0.3
