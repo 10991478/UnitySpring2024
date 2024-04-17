@@ -239,6 +239,9 @@ MonoBehaviour:
   damageMultiplier: {fileID: 11400000, guid: 79b8c6afab6956e45847bff91dbf4170, type: 2}
   floatScore: {fileID: 0}
   floatHealth: {fileID: 0}
+  pickupDropList:
+  - {fileID: 1641724061365738045, guid: 3934d74f8ef81fb48b97b3441d7bb008, type: 3}
+  pickupDropChance: {fileID: 11400000, guid: 8e4c088ab365da644b052b1813ae1659, type: 2}
 --- !u!114 &1088154883941816436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,6 +256,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPosition: {fileID: 11400000, guid: f2e44cb4bd4d4684fa718e4345681f1b, type: 2}
   speed: {fileID: 11400000, guid: c52e0bbdfd2fd294293d569ed40a392a, type: 2}
+  accuracy: {fileID: 11400000, guid: d77e535f00aa78e43b25c4aa7237ef93, type: 2}
+  rb: {fileID: -2217562489053130083}
 --- !u!54 &-2217562489053130083
 Rigidbody:
   m_ObjectHideFlags: 0

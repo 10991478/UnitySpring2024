@@ -138,6 +138,7 @@ MonoBehaviour:
   speed: 10
   speedMultiplier: {fileID: 11400000, guid: 2d7fcf560a20e5348870d0b4e7ec7043, type: 2}
   spawnPoint: {fileID: 11400000, guid: 8df5415dfc62c87468ac187319d98ce0, type: 2}
+  rb: {fileID: -1906825434342161211}
 --- !u!114 &-5988064909092597028
 MonoBehaviour:
   m_ObjectHideFlags: 0
