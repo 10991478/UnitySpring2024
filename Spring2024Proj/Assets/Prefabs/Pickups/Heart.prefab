@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6256537089532939997}
   - component: {fileID: 6344009218549314002}
   m_Layer: 10
-  m_Name: Coin
+  m_Name: Heart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a72e0d4c46ef2db4d998483cd51fb655, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intScore: {fileID: 11400000, guid: 3febed63a0323034c87159e0cc9354ec, type: 2}
+  intScore: {fileID: 11400000, guid: c059110695a096643a450b4ed6cac167, type: 2}
   intHealth: {fileID: 0}
   scoreMultiplier: {fileID: 0}
   damageMultiplier: {fileID: 0}
@@ -93,7 +93,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 10
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioClips:
-  - {fileID: 8300000, guid: 86043bc7e85b047459dc35a0a0f22bda, type: 3}
+  - {fileID: 8300000, guid: 72b5653237f791d4a9ecc96cf470b9d7, type: 3}
   volumes:
   - 1
 --- !u!114 &6344009218549314002
@@ -243,7 +243,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 51b6055cfdc2e0e4eaab691c6311eebb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8884620248d2e284c89b19256c8cceab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

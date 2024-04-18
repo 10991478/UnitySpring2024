@@ -157,6 +157,7 @@ MonoBehaviour:
   floatHealth: {fileID: 0}
   pickupDropList:
   - {fileID: 1641724061365738045, guid: 3934d74f8ef81fb48b97b3441d7bb008, type: 3}
+  - {fileID: 1641724061365738045, guid: 58284c76bd2c27642a121d1b188d7de1, type: 3}
   pickupDropChance: {fileID: 11400000, guid: 8e4c088ab365da644b052b1813ae1659, type: 2}
 --- !u!114 &8905334129356468545
 MonoBehaviour:
