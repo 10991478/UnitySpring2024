@@ -9,10 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef9999034b3c6b240b1dec2efe812049, type: 3}
-  m_Name: Level01DataStorage
+  m_Script: {fileID: 11500000, guid: 19b2e9ec5ad77cd4f8ea75d07ad77837, type: 3}
+  m_Name: UpdateCoins
   m_EditorClassIdentifier: 
-  data: {fileID: 0}
-  listData:
-  - {fileID: 11400000, guid: 9c29e077f1c52574ebd496818c79c56a, type: 2}
-  - {fileID: 11400000, guid: 3febed63a0323034c87159e0cc9354ec, type: 2}

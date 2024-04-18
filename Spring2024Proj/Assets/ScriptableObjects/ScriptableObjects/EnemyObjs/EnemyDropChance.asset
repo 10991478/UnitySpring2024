@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf318d9b19e660f4fb48684f333a2d28, type: 3}
   m_Name: EnemyDropChance
   m_EditorClassIdentifier: 
-  value: 0.05
+  value: 0.1
   hasUpperBound: 1
   hasLowerBound: 1
   lowerBound: 0
