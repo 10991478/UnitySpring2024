@@ -258,6 +258,8 @@ MonoBehaviour:
   speed: {fileID: 11400000, guid: c52e0bbdfd2fd294293d569ed40a392a, type: 2}
   accuracy: {fileID: 11400000, guid: d77e535f00aa78e43b25c4aa7237ef93, type: 2}
   rb: {fileID: -2217562489053130083}
+  velocityAffectedByDistance: 1
+  distanceEffect: -0.01
 --- !u!54 &-2217562489053130083
 Rigidbody:
   m_ObjectHideFlags: 0
