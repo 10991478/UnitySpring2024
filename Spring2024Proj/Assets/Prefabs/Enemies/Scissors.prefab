@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2488451071841307276}
-  - component: {fileID: 2488451071841307265}
   - component: {fileID: 2488451071841307274}
   - component: {fileID: 2488451071841307275}
   - component: {fileID: -377785387998809138}
@@ -17,6 +16,7 @@ GameObject:
   - component: {fileID: -6896896721620869605}
   - component: {fileID: -2891140757382999414}
   - component: {fileID: 3981550722608286993}
+  - component: {fileID: 1388394316596534697}
   m_Layer: 7
   m_Name: Scissors
   m_TagString: Untagged
@@ -40,19 +40,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &2488451071841307265
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2488451071841307264}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2488451071841307274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,6 +55,7 @@ MonoBehaviour:
   selfID: {fileID: 11400000, guid: cc36a91539daab741a3fbdd7fb994779, type: 2}
   downID: {fileID: 11400000, guid: 6430fb00fbc6d0e47afd727ee217af43, type: 2}
   upID: {fileID: 11400000, guid: 3a854d2cef2f2f24cba5faff368972ad, type: 2}
+  ultID: {fileID: 0}
   IDMatchEvent:
     m_PersistentCalls:
       m_Calls:
@@ -174,8 +162,6 @@ MonoBehaviour:
   speed: {fileID: 11400000, guid: c52e0bbdfd2fd294293d569ed40a392a, type: 2}
   accuracy: {fileID: 11400000, guid: d77e535f00aa78e43b25c4aa7237ef93, type: 2}
   rb: {fileID: -5125019673722099067}
-  velocityAffectedByDistance: 1
-  distanceEffect: -0.01
 --- !u!54 &-5125019673722099067
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -270,6 +256,19 @@ MonoBehaviour:
   volumes:
   - 0.3
   - 0.3
+--- !u!65 &1388394316596534697
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2488451071841307264}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7201749366100303948
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3988220565266454325}
   - component: {fileID: 125581225937018556}
-  m_Layer: 0
+  - component: {fileID: 2979058680464692835}
+  m_Layer: 6
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,6 +85,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2979058680464692835
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781808197436654647}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 3.0000007, z: 0.20000005}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3842045028975178506
 GameObject:
   m_ObjectHideFlags: 0
@@ -99,8 +113,8 @@ GameObject:
   - component: {fileID: -1906825434342161211}
   - component: {fileID: 8607362654128221003}
   - component: {fileID: -2750684051140667714}
-  - component: {fileID: 4538100128177397795}
-  m_Layer: 6
+  - component: {fileID: -3482790329776249517}
+  m_Layer: 12
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -244,16 +258,16 @@ MonoBehaviour:
   audioClips:
   - {fileID: 8300000, guid: 5ab6cb9124ea3e447bc7a938f2eb81ed, type: 3}
   volumes: []
---- !u!135 &4538100128177397795
-SphereCollider:
+--- !u!65 &-3482790329776249517
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3842045028975178506}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}

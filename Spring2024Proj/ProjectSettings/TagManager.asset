@@ -16,8 +16,8 @@ TagManager:
   - Camera
   - PlayerAttack
   - Pickup
-  - 
-  - 
+  - PlayerBarrier
+  - PlayerMovement
   - 
   - 
   - 
