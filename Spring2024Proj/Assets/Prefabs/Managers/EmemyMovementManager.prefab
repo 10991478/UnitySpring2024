@@ -50,10 +50,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floatValue: {fileID: 11400000, guid: 6a3d03e6958a3b9419b7c29307d950c6, type: 2}
-  range: 0.9
-  curveSteepness: -0.125
-  timeOffset: 35
-  rangeOffset: 0.1
+  range: 1
+  curveSteepness: -0.02
+  timeOffset: 210
+  rangeOffset: 0.3
 --- !u!114 &91922306911094712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67,10 +67,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floatValue: {fileID: 11400000, guid: d77e535f00aa78e43b25c4aa7237ef93, type: 2}
-  range: 0.99
-  curveSteepness: 0.125
-  timeOffset: 35
-  rangeOffset: 0.01
+  range: 0.999
+  curveSteepness: 0.02
+  timeOffset: 210
+  rangeOffset: 0.001
 --- !u!114 &91922306911094713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84,10 +84,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floatValue: {fileID: 11400000, guid: c52e0bbdfd2fd294293d569ed40a392a, type: 2}
-  range: 2.75
-  curveSteepness: 0.125
-  timeOffset: 35
-  rangeOffset: 7
+  range: 3
+  curveSteepness: 0.02
+  timeOffset: 210
+  rangeOffset: 6
 --- !u!114 &3641089249789709737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102,8 +102,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   floatValue: {fileID: 11400000, guid: da94e4460b95b47438f5d5583a542571, type: 2}
   range: 0.9
-  curveSteepness: 0.125
-  timeOffset: 35
+  curveSteepness: 0.02
+  timeOffset: 210
   rangeOffset: 0.1
 --- !u!114 &5999997414240404476
 MonoBehaviour:

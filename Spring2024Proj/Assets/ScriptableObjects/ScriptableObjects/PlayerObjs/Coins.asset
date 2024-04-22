@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e7b49d183e135f4aa5645dbc4001f1b, type: 3}
   m_Name: Coins
   m_EditorClassIdentifier: 
-  value: 0
+  value: 220
   hasUpperBound: 0
-  hasLowerBound: 0
+  hasLowerBound: 1
   lowerBound: 0
   upperBound: 0
   updateValueEvent:
