@@ -51,8 +51,8 @@ MonoBehaviour:
   accuracy: {fileID: 11400000, guid: d734faba02876b4458a2059f95744ad8, type: 2}
   followDistance: {fileID: 11400000, guid: eecc7007d95abe541a487fc1b8011e99, type: 2}
   rb: {fileID: 8356248117287615449}
-  distanceSpeedModifier: 0.05
-  speedModifierWithinFollowDistance: 0.1
+  distanceSpeedModifier: 10
+  speedModifierWithinFollowDistance: 0.2
 --- !u!54 &8356248117287615449
 Rigidbody:
   m_ObjectHideFlags: 0
