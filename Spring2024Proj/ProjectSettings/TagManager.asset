@@ -15,10 +15,10 @@ TagManager:
   - Enemy
   - Camera
   - PlayerAttack
-  - 
-  - 
-  - 
-  - 
+  - Pickup
+  - PlayerBarrier
+  - PlayerMovement
+  - Pet
   - 
   - 
   - 
